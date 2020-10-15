@@ -6,8 +6,8 @@
 .video {
   display: flex;
   align-items: center;
-  border: 1px solid black;
-    box-shadow: 3px 3px 5px 0 rgba(191, 191, 191, 0.53);
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 5px 0 rgba(191, 191, 191, 0.53);
   cursor: pointer;
   transition: transform 250ms ease-in;
 }
@@ -22,13 +22,13 @@
 }
 
 .metadata {
-    margin-left: 0.2em;
+  margin-left: 0.2em;
 }
 
 .title,
 .channel {
   margin: 0;
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .channel {
